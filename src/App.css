@@ -267,3 +267,43 @@ nav {
     color: #184a8c;
     box-shadow: 3px 10px 10px 2px rgb(0 0 0/6%)!important;
 }
+
+
+.fa {
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+}
+.fa:hover { 
+  color: darkblue;
+}
+.active { 
+  color: darkblue;
+}
+.like-wrapper {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
+    background-color: rgba(1,1,1,.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 0 5px;
+}
+.like-wrapper i {
+    font-size: 22px;
+    color: white;
+}
+.like-wrapper:hover span {
+    display: block;
+}
+.like-wrapper span {
+    font-size: 17px;
+    color: white;
+    display: none;
+}
+.like-wrapper.active i {
+    color: red;
+}
